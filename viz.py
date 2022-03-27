@@ -7,11 +7,11 @@ from tqdm import tqdm
 
 
 def visualize_and_compare_poses():
-    old_df = pd.read_csv('/home/minh/a/poses.txt', sep=' ', names=[str(i) for i in range(12)])
+    old_df = pd.read_csv('/home/minh/a/poses_full.txt', sep=' ', names=[str(i) for i in range(12)])
     x_old = np.array(old_df['3'])
     y_old = np.array(old_df['7'])
 
-    new_df = pd.read_csv('/home/minh/a/poses_new.txt', sep=' ', names=[str(i) for i in range(12)])
+    new_df = pd.read_csv('/home/minh/a/poses.txt', sep=' ', names=[str(i) for i in range(12)])
     x_new = np.array(new_df['3'])
     y_new = np.array(new_df['7'])
 
