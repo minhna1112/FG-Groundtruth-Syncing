@@ -1,7 +1,8 @@
-#FG-Groundtruth-Syncing
+# FG-Groundtruth-Syncing
 
 
-Ros-noetic skip step 0
+## Ros-noetic skip step 0
+
 0. (Recommended) Use miniconda 3 to install a python>=3.7 interpreter
 python3 -m pip install rospkg bagpy
 
